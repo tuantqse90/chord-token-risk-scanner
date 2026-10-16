@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "chord-token-risk-scanner",
+  "title": "Chord Token Risk Scanner",
+  "description": "Lists tokens Chord's scam screen hides on an EVM chain (wash, few wallets, buyer clusters, rugs, fake tickers) and checks your own tokens for dumps and pulled liquidity. Read-only, no API key.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "../README.md"
+}

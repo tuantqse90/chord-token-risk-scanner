@@ -1,0 +1,32 @@
+{
+  "title": "Chord Token Risk Scanner",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "chain": {
+      "title": "Chain",
+      "type": "string",
+      "editor": "select",
+      "enum": [
+        "base",
+        "ethereum",
+        "arbitrum",
+        "bnb",
+        "avalanche",
+        "monad",
+        "robinhood",
+        "arc"
+      ],
+      "default": "base",
+      "description": "Chain to scan."
+    },
+    "watchTokens": {
+      "title": "Tokens to check",
+      "type": "string",
+      "editor": "textfield",
+      "default": "",
+      "description": "Comma list of symbols or 0x addresses (optional)."
+    }
+  },
+  "required": []
+}

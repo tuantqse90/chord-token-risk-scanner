@@ -1,0 +1,38 @@
+{
+  "name": "chord-token-risk-scanner",
+  "version": "0.1.0",
+  "description": "Never trades: lists tokens Chord's scam screen hides, checks your watch list for dumps and pulled liquidity, writes a blocklist any bot can read.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "loop": "node index.js --loop"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "ai-agent",
+    "trading-bot",
+    "defi",
+    "mcp",
+    "chord",
+    "rug-detection",
+    "scam-detection",
+    "security",
+    "base",
+    "arbitrum",
+    "ethereum",
+    "bnb-chain",
+    "avalanche",
+    "monad",
+    "robinhood",
+    "arc"
+  ],
+  "homepage": "https://github.com/tuantqse90/chord-token-risk-scanner#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantqse90/chord-token-risk-scanner.git"
+  },
+  "license": "MIT"
+}
